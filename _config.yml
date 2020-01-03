@@ -15,8 +15,8 @@ remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Between dreams and reality"
+locale                   : "ko" #국가설정
+title                    : "Between dreams and reality" #블로그 좌측상단 제목
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "BDARJH"
@@ -65,8 +65,8 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : true #사이트 우측 상단 검색창 활성화
+search_full_content      : true #내용까지도 검색해서 결과 제공
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -115,7 +115,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: mailto:xzdfor@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -127,7 +127,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/BDARJH"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
